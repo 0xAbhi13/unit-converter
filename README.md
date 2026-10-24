@@ -20,10 +20,6 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1200&color=f97316&center=true&vCenter=true&width=660&lines=Length+%26+Weight+%E2%80%A2+Instant+Results;Swap+Units+%E2%80%A2+Reset+%E2%80%A2+Accessible" alt="Greeting typing animation" />
 </div>
 
-Unit Converter by **Abhishek Jadhav** &mdash; Web Developer and first-year BCA student at VIIT, Baramati. Built with **HTML5 + CSS3 + Vanilla JavaScript**: convert length and weight measurements instantly as you type, swap source and target units, and reset to the default state. No frameworks, no build step, no backend.
-
-> **Internship attribution:** 45-day Web Development Internship at **Veda Technology** &mdash; Day 15: Unit Converter.
-
 <details>
 <summary><b>Table of Contents (click to expand)</b></summary>
 
@@ -34,10 +30,6 @@ Unit Converter by **Abhishek Jadhav** &mdash; Web Developer and first-year BCA s
 - [Project Structure](#-project-structure)
 - [How to Run](#-how-to-run)
 - [Profile Links](#-profile-links)
-- [Screenshots](#-screenshots)
-- [Testing Checklist](#-testing-checklist)
-- [Deployment](#-deployment)
-- [Limitations](#-limitations)
 
 </details>
 
@@ -128,73 +120,3 @@ internship-task-15/
 - Repository: https://github.com/0xAbhi13/unit-converter
 
 ---
-
-## Screenshots
-
-![Desktop](./assets/screenshot-desktop.svg)
-![Tablet](./assets/screenshot-tablet.svg)
-![Mobile](./assets/screenshot-mobile.svg)
-
----
-
-## Testing Checklist
-
-- [x] Project folder contains `index.html`, `style.css`, `script.js`, `README.md`.
-- [x] 1 meter converts to 100 centimeters.
-- [x] 1 kilometer converts to 1000 meters.
-- [x] 1 inch converts to 2.54 centimeters.
-- [x] 1 mile converts to 1.609344 kilometers.
-- [x] 1 kilogram converts to 1000 grams.
-- [x] 1 pound converts to approximately 0.453592 kilograms.
-- [x] 1 stone converts to 14 pounds.
-- [x] Zero input produces a valid zero result.
-- [x] Empty input shows a helpful message.
-- [x] Negative values convert correctly.
-- [x] Changing the category updates units and results.
-- [x] Swapping units reverses the conversion.
-- [x] Reset restores the initial state.
-- [x] Invalid or extremely large inputs do not break the UI.
-- [x] Browser console contains no errors.
-- [x] `prefers-reduced-motion` disables animations.
-
----
-
-## Deployment
-
-Static site &mdash; deploy the folder contents to GitHub Pages, Netlify, Vercel, or any static host. All asset paths are relative.
-
-### GitHub Pages
-1. Create a GitHub repository named `unit-converter`.
-2. Push the project folder contents to the `main` branch.
-3. In the repository, go to **Settings > Pages**.
-4. Under **Source**, select **Deploy from a branch**.
-5. Choose `main` branch and `/ (root)` folder, then click **Save**.
-6. Wait for deployment; your site will be available at `https://0xAbhi13.github.io/unit-converter/`.
-
----
-
-## Live Demo
-
-Live demo URL (placeholder): `https://0xAbhi13.github.io/unit-converter/`
-
----
-
-## Limitations
-
-- Demo only: conversions run client-side; nothing is persisted.
-- No history of previous conversions.
-- Clipboard is not used; results are displayed only.
-- Very large magnitudes may be shown in exponential notation.
-
----
-
-## Git Commands
-
-```bash
-git init
-git add .
-git commit -m "Add Day 15 Unit Converter"
-git branch -M main
-git remote add origin https://github.com/0xAbhi13/unit-converter.git
-git push -u origin main
-```
