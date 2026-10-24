@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Unit Converter</title>
+  <meta name="description" content="Convert length and weight measurements instantly between common units." />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-orbs" aria-hidden="true">
+    <span class="orb orb--1"></span>
+    <span class="orb orb--2"></span>
+    <span class="orb orb--3"></span>
+  </div>
+
+  <main class="page">
+    <section class="card" aria-labelledby="pageTitle">
+      <header class="card__header">
+        <p class="eyebrow">Veda Technology Internship</p>
+        <h1 id="pageTitle" class="title">Unit Converter</h1>
+        <p class="subtitle">Convert length and weight measurements instantly.</p>
+      </header>
+
+      <div class="tabs" role="tablist" aria-label="Conversion category">
+        <button type="button" id="tabLength" class="tab is-active" role="tab" aria-selected="true" aria-controls="panelLength" data-category="length">Length</button>
+        <button type="button" id="tabWeight" class="tab" role="tab" aria-selected="false" aria-controls="panelWeight" data-category="weight">Weight</button>
+      </div>
+
+      <div id="converter" class="converter" role="region" aria-label="Converter">
+        <div class="field">
+          <label for="valueInput" class="field__label">Value</label>
+          <input type="number" id="valueInput" class="input" inputmode="decimal" step="any" placeholder="Enter a number" aria-describedby="status" />
+        </div>
+
+        <div class="units-row">
+          <div class="field field--unit">
+            <label for="fromUnit" class="field__label">From</label>
+            <select id="fromUnit" class="select" aria-label="Source unit"></select>
+          </div>
+
+          <button type="button" id="swapBtn" class="icon-btn" aria-label="Swap source and target units" title="Swap units">
+            <span aria-hidden="true">&#8646;</span>
+          </button>
+
+          <div class="field field--unit">
+            <label for="toUnit" class="field__label">To</label>
+            <select id="toUnit" class="select" aria-label="Target unit"></select>
+          </div>
+        </div>
+
+        <div class="result-box" aria-live="polite" aria-atomic="true">
+          <p id="resultText" class="result-text">—</p>
+        </div>
+
+        <p id="status" class="status" role="status" aria-live="polite"></p>
+
+        <div class="actions">
+          <button type="button" id="resetBtn" class="btn btn--secondary">
+            <span class="btn__icon" aria-hidden="true">&#8634;</span>
+            Reset
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">Built by Abhishek Jadhav | Veda Technology Internship — Day 15</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

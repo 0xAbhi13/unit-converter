@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 844">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#f7f9fc"/><stop offset="100%" stop-color="#eef2f8"/></linearGradient></defs>
+  <rect width="390" height="844" fill="url(#g)"/>
+  <rect x="20" y="40" width="350" height="760" rx="24" fill="#ffffff" stroke="#e2e8f0"/>
+  <text x="195" y="110" text-anchor="middle" font-family="Segoe UI, Arial" font-size="28" font-weight="700" fill="#2563eb">Unit Converter</text>
+  <rect x="40" y="170" width="310" height="44" rx="10" fill="#ffffff" stroke="#e2e8f0"/>
+  <rect x="40" y="230" width="310" height="44" rx="10" fill="#ffffff" stroke="#e2e8f0"/>
+  <rect x="175" y="285" width="40" height="40" rx="10" fill="#dbeafe"/>
+  <rect x="40" y="340" width="310" height="44" rx="10" fill="#ffffff" stroke="#e2e8f0"/>
+  <rect x="40" y="400" width="310" height="72" rx="16" fill="#dbeafe"/>
+  <rect x="95" y="490" width="200" height="44" rx="10" fill="#f97316"/>
+</svg>
